@@ -1,0 +1,14 @@
+/* h2{
+    color: aquamarine;
+} */
+ h2{
+    color: purple;
+    background-color: aqua;
+    font-size: 20PX;
+    font-weight: bold;
+    margin: 50px;
+    padding: 30px;
+ }
+ #me{
+    color: chartreuse;
+ }
