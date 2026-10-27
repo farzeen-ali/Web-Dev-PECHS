@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: beige;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "header header"
+        "sidebar main"
+        "footer footer"
+    ;
+    gap: 15px;
+    justify-items: stretch;
+    align-items: stretch;
+    justify-content: space-between;
+    align-content: space-between;
+
+    background-color: blue;
+    padding: 20px;
+    min-height: 400px;
+    border-radius: 10px;
+}
+
+.grid-item{
+    color: chocolate;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+.aside{
+    grid-area: sidebar;
+    background-color: blueviolet;
+}
+
+.main{
+    grid-area: main;
+    background-color: aquamarine;
+}
+.footer{
+    grid-area: footer;
+    background-color: cadetblue;
+}
+
+
+
+
